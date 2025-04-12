@@ -1,0 +1,131 @@
+body {
+    background-color: hsl(208, 33%, 92%) ;
+}
+
+.main {
+    margin: 6% auto;
+    width: 44%;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: auto auto; 
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  
+  .white {
+    grid-column: 1 / -1; 
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 50px;
+  }
+
+  .white h1 {
+    font-family: "Karla", sans-serif;
+    margin-top: 35px;
+    font-size: 22px;
+    font-weight: 750;
+    color:hsl(179, 62%, 43%);
+
+  }
+
+  .white h2 {
+    color:  hsl(71, 73%, 54%);
+    font-family: "Karla", sans-serif;
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: 900;
+  }
+.white p {
+    font-family: "Karla", sans-serif;
+    color:hsl(212, 15%, 75%);
+    font-weight: 700;
+    margin-top: 0;
+    line-height: 25px;
+    margin-bottom: 40px;
+}   
+  
+  .dark-green {
+    background-color: hsl(179, 61%, 39%);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 50px;
+  }
+
+  .dark-green h2 {
+    color:hsl(214, 33%, 96%);
+    font-family: "Karla", sans-serif;
+    font-size: 17px;
+    margin-top: 38px;
+  }
+
+  .dark-green h1 {
+    font-family: "Karla", sans-serif;
+    color: white;
+    margin-top: 2px;
+    margin-bottom: 0;
+  }
+
+  .dark-green h1 span {
+    display: inline-flex;
+    font-size: 14px;
+    padding-left: 12px;
+    position: relative;
+    top:-5px;
+    color:hsl(179, 53%, 80%);
+  }
+
+  .dark-green p {
+    color:hsl(220, 9%, 93%);
+    margin-top: 7px;
+    font-family: "Karla", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+  }
+ 
+  .dark-green a {
+    background-color: hsl(71, 73%, 54%);
+    width: 86%;
+    margin-top: 17px;
+    font-size: 17px;
+    font-family: "Karla", sans-serif;
+    height: 47px;
+    text-align: center;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding-top: 12px;
+    color: white;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+
+  }
+  
+  .green {
+    background-color: hsl(179, 62%, 43%);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 50px;
+    box-sizing: border-box;
+
+  }
+
+  .green h1 {
+    font-family: "Karla", sans-serif;
+    color:hsl(214, 33%, 96%);
+    font-size: 17px;
+    margin-top: 38px;
+  }
+  
+  .green p {
+    color:hsl(179, 53%, 80%);
+    font-family: "Karla", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
